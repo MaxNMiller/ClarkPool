@@ -7,34 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		330C77A32B8A6DEE005C671B /* RideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330C77A22B8A6DEE005C671B /* RideView.swift */; };
-		330C77A72B8A8959005C671B /* ContainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330C77A62B8A8959005C671B /* ContainView.swift */; };
-		330C77A92B8AA4CD005C671B /* RouteEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330C77A82B8AA4CD005C671B /* RouteEnd.swift */; };
-		330C77AF2B8AC369005C671B /* grow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 330C77AE2B8AC369005C671B /* grow.gif */; };
 		330C77B02B8AC449005C671B /* airstrike.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 330C77AA2B8AA916005C671B /* airstrike.ttf */; };
 		330C77B12B8AC452005C671B /* Akira Expanded Demo.otf in Resources */ = {isa = PBXBuildFile; fileRef = 330C77AB2B8AA935005C671B /* Akira Expanded Demo.otf */; };
-		5AC2B3831EFF6561007AF914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2B3821EFF6561007AF914 /* AppDelegate.swift */; };
-		5AC2B3851EFF6561007AF914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2B3841EFF6561007AF914 /* ViewController.swift */; };
-		5AC2B3881EFF6561007AF914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2B3861EFF6561007AF914 /* Main.storyboard */; };
-		5AC2B38A1EFF6561007AF914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2B3891EFF6561007AF914 /* Assets.xcassets */; };
-		5AC2B38D1EFF6561007AF914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2B38B1EFF6561007AF914 /* LaunchScreen.storyboard */; };
+		333748152B8BCD98001C128D /* ClarkPool in Resources */ = {isa = PBXBuildFile; fileRef = 333748142B8BCD98001C128D /* ClarkPool */; };
 		5AC2B3961EFF6796007AF914 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC2B3951EFF6796007AF914 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		330C77A22B8A6DEE005C671B /* RideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideView.swift; sourceTree = "<group>"; };
-		330C77A62B8A8959005C671B /* ContainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainView.swift; sourceTree = "<group>"; };
-		330C77A82B8AA4CD005C671B /* RouteEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteEnd.swift; sourceTree = "<group>"; };
 		330C77AA2B8AA916005C671B /* airstrike.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = airstrike.ttf; path = "../../Downloads/airstrike (1)/airstrike.ttf"; sourceTree = "<group>"; };
 		330C77AB2B8AA935005C671B /* Akira Expanded Demo.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Akira Expanded Demo.otf"; path = "../../Downloads/akira_expanded (1)/Akira Expanded Demo.otf"; sourceTree = "<group>"; };
-		330C77AE2B8AC369005C671B /* grow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = grow.gif; path = ../../../Downloads/grow.gif; sourceTree = "<group>"; };
-		5AC2B37F1EFF6561007AF914 /* Turn by Turn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turn by Turn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AC2B3821EFF6561007AF914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5AC2B3841EFF6561007AF914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5AC2B3871EFF6561007AF914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5AC2B3891EFF6561007AF914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5AC2B38C1EFF6561007AF914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5AC2B38E1EFF6561007AF914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333748142B8BCD98001C128D /* ClarkPool */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ClarkPool; sourceTree = "<group>"; };
+		5AC2B37F1EFF6561007AF914 /* ClarkPool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClarkPool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC2B3951EFF6796007AF914 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -55,7 +38,7 @@
 			children = (
 				330C77AA2B8AA916005C671B /* airstrike.ttf */,
 				330C77AB2B8AA935005C671B /* Akira Expanded Demo.otf */,
-				5AC2B3811EFF6561007AF914 /* Turn by Turn */,
+				333748142B8BCD98001C128D /* ClarkPool */,
 				5AC2B3801EFF6561007AF914 /* Products */,
 				5AC2B3941EFF6796007AF914 /* Frameworks */,
 			);
@@ -64,26 +47,9 @@
 		5AC2B3801EFF6561007AF914 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AC2B37F1EFF6561007AF914 /* Turn by Turn.app */,
+				5AC2B37F1EFF6561007AF914 /* ClarkPool.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5AC2B3811EFF6561007AF914 /* Turn by Turn */ = {
-			isa = PBXGroup;
-			children = (
-				5AC2B3821EFF6561007AF914 /* AppDelegate.swift */,
-				330C77A22B8A6DEE005C671B /* RideView.swift */,
-				330C77A62B8A8959005C671B /* ContainView.swift */,
-				5AC2B3841EFF6561007AF914 /* ViewController.swift */,
-				330C77A82B8AA4CD005C671B /* RouteEnd.swift */,
-				5AC2B3861EFF6561007AF914 /* Main.storyboard */,
-				330C77AE2B8AC369005C671B /* grow.gif */,
-				5AC2B3891EFF6561007AF914 /* Assets.xcassets */,
-				5AC2B38B1EFF6561007AF914 /* LaunchScreen.storyboard */,
-				5AC2B38E1EFF6561007AF914 /* Info.plist */,
-			);
-			path = "Turn by Turn";
 			sourceTree = "<group>";
 		};
 		5AC2B3941EFF6796007AF914 /* Frameworks */ = {
@@ -97,9 +63,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5AC2B37E1EFF6561007AF914 /* Turn by Turn */ = {
+		5AC2B37E1EFF6561007AF914 /* ClarkPool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AC2B3911EFF6561007AF914 /* Build configuration list for PBXNativeTarget "Turn by Turn" */;
+			buildConfigurationList = 5AC2B3911EFF6561007AF914 /* Build configuration list for PBXNativeTarget "ClarkPool" */;
 			buildPhases = (
 				5AC2B37B1EFF6561007AF914 /* Sources */,
 				5AC2B37C1EFF6561007AF914 /* Frameworks */,
@@ -109,9 +75,9 @@
 			);
 			dependencies = (
 			);
-			name = "Turn by Turn";
+			name = ClarkPool;
 			productName = "Turn by Turn";
-			productReference = 5AC2B37F1EFF6561007AF914 /* Turn by Turn.app */;
+			productReference = 5AC2B37F1EFF6561007AF914 /* ClarkPool.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5AC2B37A1EFF6561007AF914 /* Build configuration list for PBXProject "Turn by Turn" */;
+			buildConfigurationList = 5AC2B37A1EFF6561007AF914 /* Build configuration list for PBXProject "ClarkPool" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AC2B37E1EFF6561007AF914 /* Turn by Turn */,
+				5AC2B37E1EFF6561007AF914 /* ClarkPool */,
 			);
 		};
 /* End PBXProject section */
@@ -162,10 +128,7 @@
 			files = (
 				330C77B12B8AC452005C671B /* Akira Expanded Demo.otf in Resources */,
 				330C77B02B8AC449005C671B /* airstrike.ttf in Resources */,
-				5AC2B38D1EFF6561007AF914 /* LaunchScreen.storyboard in Resources */,
-				5AC2B38A1EFF6561007AF914 /* Assets.xcassets in Resources */,
-				5AC2B3881EFF6561007AF914 /* Main.storyboard in Resources */,
-				330C77AF2B8AC369005C671B /* grow.gif in Resources */,
+				333748152B8BCD98001C128D /* ClarkPool in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,34 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				330C77A32B8A6DEE005C671B /* RideView.swift in Sources */,
-				330C77A72B8A8959005C671B /* ContainView.swift in Sources */,
-				5AC2B3851EFF6561007AF914 /* ViewController.swift in Sources */,
-				5AC2B3831EFF6561007AF914 /* AppDelegate.swift in Sources */,
-				330C77A92B8AA4CD005C671B /* RouteEnd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5AC2B3861EFF6561007AF914 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AC2B3871EFF6561007AF914 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5AC2B38B1EFF6561007AF914 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5AC2B38C1EFF6561007AF914 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5AC2B38F1EFF6561007AF914 /* Debug */ = {
@@ -342,7 +281,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5AC2B37A1EFF6561007AF914 /* Build configuration list for PBXProject "Turn by Turn" */ = {
+		5AC2B37A1EFF6561007AF914 /* Build configuration list for PBXProject "ClarkPool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AC2B38F1EFF6561007AF914 /* Debug */,
@@ -351,7 +290,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AC2B3911EFF6561007AF914 /* Build configuration list for PBXNativeTarget "Turn by Turn" */ = {
+		5AC2B3911EFF6561007AF914 /* Build configuration list for PBXNativeTarget "ClarkPool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AC2B3921EFF6561007AF914 /* Debug */,
